@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+body header{
+  margin: 10px auto 25px auto;
+}
+
+header span{
+  font-size: 30.5px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+  span{
+    color: rgb(166, 166, 32);
+  }
+
+
+  span:last-of-type{
+    color: rgb(0, 209, 209);
+  }
+}
+
+
+main .controls{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5.5px;
+
+
+  div:not(:last-of-type) input{
+    width: 105px;
+  }
+}
+
+.controls div{
+  display: inherit;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+
+  label{
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+}
+
+main .bg{
+  width: 100dvw;
+  outline: 5px solid black;
+  margin: 40px auto auto auto;
+}
+
+.bg img{
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width:674px) {
+  header span{
+      font-size: 56px;
+  }
+
+  main .controls{
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  main .bg{
+    width: 95dvw;    
+  }
+
+  .controls div{
+    label{
+      font-size: 32px;
+    }
+  }
+}
+
+@media (min-width:1024px) {
+  header span{
+    font-size: 92px;
+  }
+
+  main .controls{
+    gap: 70px;
+
+    div:not(:last-of-type) input{
+      width: 160px;
+    }
+  }
+
+  main .bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55dvw;
+  }
+}

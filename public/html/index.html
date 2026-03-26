@@ -6,25 +6,36 @@
     <meta name="author" content="EyelessCode">
     <meta name="description" content="Una página donde puedes cambiar en tiempo real variables de CSS con lan
       dinamicidad de JS.">
+      <link rel="stylesheet" href="../styles/style.css">
     <title>Play with Vars</title>
   </head>
   <body>
     <header>
-      <span>Play with JS and CSS vars</span>
+      <span>Play with 
+        <span>JS</span> and 
+        <span>CSS</span> vars</span>
     </header>
     <main>
       <section class="controls">
-        <label for="spacingRange">Spacing: </label>
-        <input type="range" name="spacing" id="spacingRange">
-        
-        <label for="blurRange">Blur: </label>
-        <input type="range" name="blur" id="blurRange">
+        <div>
+          <label for="spacingRange">Spacing: </label>
+          <input min="10" max="200" type="range" name="spacing"
+            id="spacingRange">
+        </div>
 
-        <label for="inputColor">Base color: </label>
-        <input type="color" name="color" id="inputColor">
+        <div>
+          <label for="blurRange">Blur: </label>
+          <input min="0" max="25" type="range" name="blur"
+            id="blurRange">
+        </div>
+
+        <div>
+          <label for="inputColor">Base color: </label>
+          <input type="color" name="color" id="inputColor">
+        </div>
       </section>
       <section class="bg">
-        <img src="#" alt="Imagen utilizada para cambiar propiedades">
+        <img src="../resources/images/a0520915340490 - Tetto.webp" alt="Imagen utilizada para cambiar propiedades">
       </section>
     </main>
   </body>
