@@ -19,24 +19,28 @@
       <section class="controls">
         <div>
           <label for="spacingRange">Spacing: </label>
-          <input min="10" max="200" type="range" name="spacing"
+          <input value="10" data-sizing="px" min="10"
+            max="200" type="range" name="spacing"
             id="spacingRange">
         </div>
 
         <div>
           <label for="blurRange">Blur: </label>
-          <input min="0" max="25" type="range" name="blur"
+          <input value="10" data-sizing="px" min="0"
+            max="25" type="range" name="blur"
             id="blurRange">
         </div>
 
         <div>
           <label for="inputColor">Base color: </label>
-          <input type="color" name="color" id="inputColor">
+          <input value="#a6a620"
+            type="color" name="base" id="inputColor">
         </div>
       </section>
       <section class="bg">
         <img src="../resources/images/a0520915340490 - Tetto.webp" alt="Imagen utilizada para cambiar propiedades">
       </section>
     </main>
+    <script src="../js/script.js"></script>
   </body>
 </html>
