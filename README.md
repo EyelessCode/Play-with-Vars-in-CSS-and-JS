@@ -10,14 +10,17 @@ Permite modificar propiedades visuales en tiempo real usando controles como slid
 
 ## Capturas
 
+### Celulares:
 <img width="517" height="1057" alt="image" src="https://github.com/user-attachments/assets/f805b591-de02-452d-8ab3-726b72d7fee5" />
 
 ---
 
+### Tabletas:
 <img width="1025" height="1475" alt="image" src="https://github.com/user-attachments/assets/a563534e-eb32-4d69-b16c-5903a8d432cc" />
 
 ---
 
+### PCs y portátiles:
 <img width="1920" height="913" alt="image" src="https://github.com/user-attachments/assets/7e97be98-6471-490c-882b-da2202c76019" />
 
 ---
